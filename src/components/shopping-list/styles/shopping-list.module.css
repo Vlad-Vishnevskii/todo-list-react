@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.shoppingList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 100vh;
+    padding: 50px 100px;
+    color: white;
+    background-color: black;    
+}
+
+.shoppingListWrapper {
+    width: 60%;
+}
+
+
